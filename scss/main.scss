@@ -1,0 +1,36 @@
+//**BASA**/
+@import './utils/variable';
+@import './utils/varCSS';
+@import './utils/mixins';
+@import './default/default';
+@import './default/pageset';
+//**COMPONENTS**/
+@import './components/buttons';
+@import './components/inputs';
+@import './components/links';
+//@import './components/radiobutt';
+@import './components/checkbox';
+//@import './components/textareas';
+//**BLOCKS**/
+@import './blocks/logo';
+@import './blocks/nav';
+@import './blocks/contacts';
+@import './blocks/social';
+@import './blocks/subscription';
+@import './blocks/team-card';
+@import './blocks/address';
+@import './blocks/filters';
+@import './blocks/gallery';
+@import './blocks/any-card';
+//**LAYOUTS**/
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/craft';
+@import './layout/developers';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal';
+@import './layout2/filter';
+@import './layout2/grid';
+@import './layout2/contacts';

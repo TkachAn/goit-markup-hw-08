@@ -1,0 +1,49 @@
+:root {
+    --col: 3;
+    --gap: 30px;
+    --black-logo-Color: #000000; 
+    /* var(--studioColorUP, #000000);*/
+    --color-Max--light: #ffffff;
+    --color-Max--dark: #000000;
+    /*txt*/
+    --color-logo--bglight: #000000;
+    --color-logo--bgdark: #ffffff;
+    --color-txt--light: #ffffff;
+    --color-txt--primary:#757575;
+    --color-txt--link:#afb1b8;
+    --color-txt--title:#212121;
+    --color-txt--hover:#2196f3;
+    
+    --white-txt-color: #ffffff; 
+    /* var(--white-txt-color, #ffffff);*/
+    --primary-txt-color: #757575; 
+    /* var(--primary-txt-color, #757575);*/
+    --secondary-txt-color: #212121; 
+    /* var(--secondary-txt-color, #212121);*/
+    --white-bg-color: #ffffff; 
+    /* var(--white-bg-color, #ffffff);*/
+    --primary-bg-color: #2f303a; 
+    /* var(--primary-bg-color, #2f303a);*/
+    --secondary-bg-color: #f5f4fa; 
+    /* var(--secondary-bg-color, #f5f4fa);*/
+    --primary-link-color: #757575; 
+    /* var(--primary-link-color, #757575);*/
+    --secondary-link-color: #212121; 
+    /* var(--secondary-link-color, #212121);*/
+    --button-accent-color: #188ce8; 
+    /* var(--button-accent-color, #188ce8);*/
+    --primary-accent-color: #2196f3; 
+    /* var(--primary-accent-color, #2196f3);*/
+    --secondary-accent-color: #212121; 
+    /* var(--secondary-accent-color, #212121);*/
+    --primary-border-color: #ececec; 
+    /* var(--primary-border-color, #ececec);*/
+    --secondary-border-color: #eeeeee; 
+    /* var(--secondary-border-color, #eeeeee);*/
+    --footer-link3-color: rgba(255, 255, 255, 0.6);
+    --footer-link-color: #ffffff99;
+  
+    --h1Color: #ffffff; /*h1 color var(--h1Color,#ffffff);*/
+    /* var(--footer-link-color, rgba(255,255,255,0.6));*/
+  }
+  

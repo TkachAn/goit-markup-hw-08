@@ -1,0 +1,65 @@
+.social{
+  @extend %socbox-size;
+  &__icon{
+    @extend %soc-icon;
+    @extend %bglight;
+    &:focus,
+    &:hover {
+    @extend %hoverfocus;
+    }
+  }
+}
+
+.socbox{
+
+  &__title{
+    text-transform: uppercase;
+    color: var(--white-txt-color);
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 20px;//display: flex;
+}
+  &__flex {
+    @extend %socbox-size;
+  }
+  &__icon{
+    @extend %soc-icon;
+    @extend %bgdark;
+    &:focus,
+    &:hover {
+    @extend %hoverfocus;
+    }
+  }
+}
+
+%socbox-size{
+  display: flex;
+  justify-content: space-between;
+  width: 208px;
+  height: 44px;
+
+}
+%soc-icon{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms $cubic;
+}
+
+%bgdark{
+  fill: $colorMaxLight;
+  background-color: lighten($colorMaxDark, 20%); 
+}
+%bglight{
+  fill: $colorTxt-socialLink;
+  // background-color: lighten($colorMaxLight, 20%);
+}
+
+
+%hoverfocus{
+  background-color: $colorTxt-accent;
+  fill: $colorMaxLight;
+  transition: background-color 250ms $cubic;
+}
+

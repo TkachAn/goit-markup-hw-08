@@ -1,0 +1,17 @@
+
+  .header {
+    border-bottom: 1px solid $colorBorder-default;
+  
+
+  &__container {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  &__nav {
+     padding-right: 177px;
+    }
+}

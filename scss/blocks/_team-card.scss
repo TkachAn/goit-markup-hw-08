@@ -1,0 +1,37 @@
+.team-card {
+
+    width: 270px;
+    min-height: 428px;
+    font-size: 16px;
+    line-height: 1.18;
+    background-color: var(--white-txt-color, $colorMaxLight);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    padding-bottom: 30px;
+
+    
+    &__position{
+        display: inline-block;
+        padding: 30px 24px 16px;
+        font-size: 16px;
+        line-height: 0.9;
+        margin-bottom: 0;
+  /* line-height: 1; */
+
+    }
+
+    &__name {
+        display: block;
+        font-weight: 700;
+        color: $colorTxt-secondary;
+
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+    }
+
+}

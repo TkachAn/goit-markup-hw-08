@@ -1,0 +1,57 @@
+.clients {
+    display: flex;
+    text-align: center;
+    
+    &__title{
+        font-style: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 3%;
+        color: $colorTxt-secondary;
+        padding-bottom: 50px;
+    }
+
+    &__items{
+        display: flex;
+        justify-content: space-between;  
+    }
+
+    &__item{
+        display: flex;
+        width: 170px;
+        height: 92px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $colorTxt-socialLink;
+        border-radius: 4px;
+        fill: $colorTxt-socialLink;
+    }
+        
+    &__link{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        fill: $colorTxt-socialLink;
+    }
+
+    &__icon {
+        width: 106px;
+        height: 40px;
+        //color: currentColor;
+        fill: inherit;
+    }
+    
+    // &__icon:hover {
+    //     fill: $colorTxt-accent;
+    // }
+    
+    &__link {
+        fill: inherit;
+    }
+
+    &__item:hover {
+        border: 1px solid $colorTxt-accent;
+        fill: $colorTxt-accent;
+        cursor: pointer;
+    }
+}

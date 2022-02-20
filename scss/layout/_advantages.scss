@@ -1,0 +1,39 @@
+.advantages {
+     margin-top: 93px;   
+    &__title-grup {
+        color: $colorTxt-secondary;
+        font-size: 14px;
+        font-style: 700px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    &__feature {
+        display: block;
+        }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__group {
+        width: 270px;
+        height: 120px;
+        padding: 25px 100px;
+        background-color: #f5f4fa;
+    }
+
+    &__icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    &__text {
+        display: inline-block;
+        width: 270px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

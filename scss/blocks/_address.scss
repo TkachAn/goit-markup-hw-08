@@ -1,0 +1,13 @@
+.address {
+    font-style: normal;
+    
+    &__map{
+        color:$colorMaxLight;
+    }
+    &__link{
+        font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-link-color, rgba(255, 255, 255, 0.6));
+    }
+
+}

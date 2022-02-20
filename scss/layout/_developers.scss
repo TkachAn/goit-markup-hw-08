@@ -1,0 +1,19 @@
+.developers {
+
+    background-color: $colorBg-secondary;
+    
+    &__title{
+        color: $colorTxt-secondary;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}

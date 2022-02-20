@@ -1,0 +1,35 @@
+.subscription{
+    &__title{
+        text-transform: uppercase;
+        color: var(--white-txt-color);
+        font-size: 14px;
+        line-height: 1.14;
+        margin-bottom: 20px;
+    }
+
+    &__position-el{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__position-el label[for="email-label"] {
+        position: absolute;
+        top: 18px;
+        left: 16px;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        line-height: 1.14;
+        z-index: 1000;
+    }
+
+    &__email-input--sub {
+        @extend %input--sub;
+
+    }
+
+    &__button{
+
+    }
+
+}

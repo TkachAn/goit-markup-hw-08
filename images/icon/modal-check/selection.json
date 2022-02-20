@@ -1,0 +1,225 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M136.533 0h819.2c75.405 0 136.533 61.128 136.533 136.533v750.933c0 75.405-61.128 136.533-136.533 136.533h-819.2c-75.405 0-136.533-61.128-136.533-136.533v-750.933c0-75.405 61.128-136.533 136.533-136.533z",
+          "M270.133 529.18l-4.695-4.48-70.546 66.825 248.551 237.109 522.183-498.145-70.083-66.856-452.098 430.877-173.311-165.331z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(33, 150, 243)"
+          },
+          {
+            "fill": "rgb(255, 255, 255)",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 13.653333333333334
+          }
+        ],
+        "width": 1092,
+        "isMulticolor": true,
+        "isMulticolor2": true,
+        "grid": 0,
+        "tags": [
+          "icon check1"
+        ],
+        "colorPermutations": {
+          "2552552551331502431": [
+            {
+              "f": 0
+            },
+            {
+              "f": 1,
+              "s": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(33, 150, 243)"
+        },
+        {
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 13.653333333333334
+        }
+      ],
+      "properties": {
+        "order": 18,
+        "id": 5,
+        "name": "icon-check1",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M136.533 0h819.2c75.405 0 136.533 61.128 136.533 136.533v750.933c0 75.405-61.128 136.533-136.533 136.533h-819.2c-75.405 0-136.533-61.128-136.533-136.533v-750.933c0-75.405 61.128-136.533 136.533-136.533z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(33, 150, 243)"
+          }
+        ],
+        "width": 1092,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Rectangle 11"
+        ],
+        "colorPermutations": {
+          "2552552551331502431": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(33, 150, 243)"
+        }
+      ],
+      "properties": {
+        "order": 19,
+        "id": 3,
+        "name": "Rectangle-11",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 3
+    },
+    {
+      "icon": {
+        "paths": [
+          "M200.4 486.57l-7.043-6.719-105.819 100.237 372.826 355.664 783.274-747.217-105.124-100.284-678.147 646.318-259.967-247.999z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 20.480000000000004
+          }
+        ],
+        "width": 1331,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector1"
+        ],
+        "colorPermutations": {
+          "2552552551331502431": [
+            {
+              "f": 1,
+              "s": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 20.480000000000004
+        }
+      ],
+      "properties": {
+        "order": 15,
+        "id": 1,
+        "name": "Vector1",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 5
+    },
+    {
+      "icon": {
+        "paths": [
+          "M970.902 113.778v796.442h-849.539v-796.442h849.539zM970.902 0h-849.539c-66.75 0-121.363 51.2-121.363 113.778v796.442c0 62.58 54.613 113.78 121.363 113.78h849.539c66.751 0 121.364-51.2 121.364-113.78v-796.442c0-62.578-54.613-113.778-121.364-113.778z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1092,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector2"
+        ],
+        "colorPermutations": {
+          "2552552551331502431": [
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 21,
+        "id": 0,
+        "name": "Vector2",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 6
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "modal",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

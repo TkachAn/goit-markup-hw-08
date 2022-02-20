@@ -1,0 +1,87 @@
+
+/*********************************/
+/*********портфолио***************/
+/*********************************/
+
+  /*********************************/
+  /*********каталог*****************/
+  /*********************************/
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-top: calc(-1 * $gap);
+    margin-left: calc(-1 * $gap);
+    padding: 0;
+  &-card {
+      border: 1px solid $colorBorder;
+      margin-top: $gap;
+      margin-left: $gap;
+      flex-basis: calc(100% / $col - $gap);
+    }
+  &-card:hover .overlay,
+  &-card:hover .overlay-p {
+    transform: translatex(0);
+    color: $colorTxt-Light;
+  }
+  }
+  
+  
+  
+  .box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translatey(100%);
+    transition: transform 250ms $cubic;
+  }
+  
+  .overlay-p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 100%;
+    color: #2196f300;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    padding: 10px;
+    margin: 0;
+    transform: translatey(100%);
+    transition: transform 360ms linear, color 400ms $cubic;
+  }
+  
+  .catalog-card:focus,
+  .catalog-card:hover {
+    box-shadow: $shadow-box;
+  }
+  
+  .catalog-card p {
+    font-size: 16px;
+    line-height: 1.9;
+    padding: 20px 24px;
+    margin: 0;
+  }
+  
+  .h3catCard {
+    color: var(--secondary-txt-color, $colorTxt-secondary);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  
+  /*********************************/
+  /******конец страницы*************/
+  /*********************************/

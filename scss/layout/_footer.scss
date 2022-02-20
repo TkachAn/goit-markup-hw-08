@@ -1,0 +1,31 @@
+
+.footer{
+    background-color: $colorBg-Dark;
+      
+    &__section {
+      display: flex;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    &__socbox-postion {
+      padding-top: 15px;
+      margin-left: 70px;
+    }
+
+    &__address-postion {
+      margin-top: 20px;
+    }
+
+    &__subscription-postion {
+      padding-top: 15px;
+      width: 570px;
+      height: 88px;
+      margin-left: 93px;
+    }  
+}
+
+// .logo--down{
+//   color: $colorMaxLight;
+// }  
+
