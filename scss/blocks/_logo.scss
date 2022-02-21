@@ -1,6 +1,9 @@
 /* .web,
 .studio  */
 .logo {
+  display: flex;
+  position: relative;
+  top: 4px;
     margin: 0;
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -8,13 +11,12 @@
     font-size: 26px;
     line-height: 1.19;
     color: $colorTxt-accent;
-    padding: 0;
-  
+    &--up {
+      color: $colorTxt-forlinkLightBg;
+      margin:  26px 0 ;
+    }
+    &--down {
+      color: $colorMaxLight;
+    }
+
 } 
-.logo--up {
-  color: $colorTxt-forlinkLightBg;
-}
-.logo--down {
-  color: $colorMaxLight;
-  //  $colorTxt-forlinkDarkBg;
-}

@@ -1,0 +1,25 @@
+// $min-font-size: 14px;
+// $max-font-size: 26px;
+// $min-block-size: 300px;
+// $breackPoint: 480px;
+// @mixin fontSize ($min-font-size, $max-font-size, $min-block-size, $breackPoint) {
+//  $r_brP-mBl: $breackPoint-$min-block-size;
+//  $r_VW-mBl: 100vw-$min-block-size;
+//  $r_MaxF-minF: $max-font-size-$min-font-size;
+//  $ch_: $r_brP-mBl / $r_MaxF-minF;
+//  $kh_: $r_VW-mBl / $ch_;
+ 
+//  $fS: $min-font-size + (floor($kh_));
+//  return: $fS;
+    
+// }
+@function fontSize($min-font-size: 14px, $max-font-size: 26px,$min-block-size: 300px, $breackPoint: 480px) {
+    $r_brP-mBl: $breackPoint-$min-block-size;
+    $r_VW-mBl: 100vw-$min-block-size;
+    $r_MaxF-minF: $max-font-size-$min-font-size;
+    $ch_: $r_brP-mBl / $r_MaxF-minF;
+    $kh_: $r_VW-mBl / $ch_;
+    $fS: $min-font-size + (floor($kh_));
+    @return $fS*1px;
+  }
+// floor($number)
