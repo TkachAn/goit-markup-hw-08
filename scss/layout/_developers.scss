@@ -1,21 +1,19 @@
 .developers {
 
     background-color: $colorBg-secondary;
-    @media screen and (min-width: 768px){
-        &__title{
-            color: $colorTxt-secondary;
-            font-size: 36px;
-            line-height: 1.17;
-            text-align: center;
-            padding-bottom: 50px;
-        }
     
-        &__list{
-            display: flex;
-            justify-content: space-between;
-        }
-    
-      }
-    
+    &__title{
+        color: $colorTxt-secondary;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+
 
 }

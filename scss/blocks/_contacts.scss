@@ -1,33 +1,33 @@
 
 .contacts {
-  // @media screen and (max-width: 480px){
-  //   display: none;
-  // }  
-  // @media screen and (min-width: 768px){
-  //   display: flex;
-  //   width: 333px;
-  //   justify-content: space-between;
-  // }
+    display: flex;
+    width: 333px;
+    justify-content: space-between;
+    
 
-  &__link {
-    
-      padding-left: 25px;
-      font-size: fontSize();
-      line-height: 1.15;
-      letter-spacing: 2%;
-      color: $colorTxt-primary;
-      align-items: center;
-      position: relative;
-      transition: color 250ms $cubic, fill 250ms $cubic, stroke 250ms $cubic;
-    
-      
-    } 
-    
-    &__link:hover {
-        color: $colorTxt-accent;
-      stroke: $colorTxt-accent;
-        fill: $colorTxt-accent;
-      }
+&__item {
+    //display: flex;
+    //margin-left: 30px;
+    //margin-right: auto;
+    //position: relative;
+  }
+
+&__link {
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 2%;
+    color: $colorTxt-primary;
+    align-items: center;
+    position: relative;
+    transition: color 250ms $cubic, fill 250ms $cubic, stroke 250ms $cubic;
+  } 
+
+&__link:hover {
+    color: $colorTxt-accent;
+  stroke: $colorTxt-accent;
+    fill: $colorTxt-accent;
+  }
 }
 .envelope {
     position: absolute;

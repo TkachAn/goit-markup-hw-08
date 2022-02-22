@@ -17,13 +17,11 @@
     color: var(--white-txt-color);
     font-size: 14px;
     line-height: 1.14;
-    margin-bottom: 23px;//display: flex;
-  }
-  
+    margin-bottom: 20px;//display: flex;
+}
   &__flex {
     @extend %socbox-size;
   }
-
   &__icon{
     @extend %soc-icon;
     @extend %bgdark;

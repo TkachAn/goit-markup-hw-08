@@ -1,16 +1,10 @@
 .nav{
-  // font-size: fontSize();
-  //   line-height: 1.15;
-  //   letter-spacing: 2%;
-  @media screen and (max-width: 480px){
-    display: none;
-  }
-  
-    @media screen and (min-width: 768px){
-      width: 294px;
-      display: flex;
-      justify-content: space-between;
-    }
+    display: flex;
+    width: 294px;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 2%;
 
     &__link {
         display: block;

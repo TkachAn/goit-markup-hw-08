@@ -1,46 +1,17 @@
 
   .header {
-    position: relative;
     border-bottom: 1px solid $colorBorder-default;
-    
-    &__container {
-      @media screen and (min-width: 480px){
-        
-      }
-
-      @media screen and (min-width: 768px){
-        display: flex;
-        align-items:baseline;
-        justify-content: space-between;
-      }
-      
-      font-weight: 500;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-    }
-    &__nav {
-      @media screen and (min-width: 768px){
-        padding-right: 177px;
-        }
-      }
-}
-.menu-icon {
   
-  //opacity: 1;
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-  fill: $colorTxt-secondary;
-  width: 32px;
-  height:24px;
-  background-color: #fff;
-  :hover{
-    fill: $colorTxt-accent;
-    cursor: pointer;
+
+  &__container {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
   }
-  @media screen and (min-width: 481px){
-    // opacity: 0;
-    // fill: transparent;
-    display: none;
-   }
-} 
+  &__nav {
+     padding-right: 177px;
+    }
+}
