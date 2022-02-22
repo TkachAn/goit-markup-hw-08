@@ -1,30 +1,31 @@
 <!--  -->
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta aria-describedby="">  -->
     <title>Document</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-</head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+    <link rel="stylesheet" href="./css/main.min.css">
+
+  </head>
 <!-- body -->
 <body>
-    <!-- header -->
-    <div class="fixHeader">
+
+    <!-- <div class="fixHeader">
         <header class="header">
             <div class="container header__container">
-      <!-- logo -->        
+      
               <a class="header__logo logo" href="./index.html">
                 <span>Web</span><span class="logo--up">Studio</span>
               </a>
-      <!-- navigation -->
+
               <nav class="header__nav">
                 <ul class="nav">
             
@@ -42,7 +43,7 @@
             
                 </ul>
               </nav>
-      <!-- contacsts -->
+
               <ul class="header__contacts contacts">
                 <li class="contacts__item">
                   <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -64,9 +65,76 @@
               </ul>
             </div>
           </header>
-    </div>
+    </div> -->
+
+
+    <section class="hero section">
+      <h1 class="hero__title">
+        Эффективные решения <br> для вашего бизнеса
+      </h1>
+      <button class="hero__btn" type="button" data-modal-open>
+        Заказать услугу
+      </button>
+    </section>
+    <section class="advantages container">
+      <h2 class="invisible">Особенности</h2>
+      <ul class="advantages__list">
+<!-- container  -->
+        <li class="advantages__feature">
+          <div class="advantages__group">
+            <svg class="advantages__icon">
+              <use href="./images/icon/defs.svg#g-antenna"></use>
+            </svg>
+          </div>
+          <div class="advantages__pos">
+            <h3 class="advantages__title-grup">Внимание к деталям</h3>
+          <p class="advantages__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </div>
+          
+        </li>
+
+        <li class="advantages__feature">
+          <div class="advantages__group">
+            <svg class="advantages__icon">
+              <use href="./images/icon/defs.svg#g-clock"></use>
+            </svg>
+          </div>
+          <div class="advantages__pos">
+            <h3 class="advantages__title-grup">Пунктуальность</h3>
+          <p class="advantages__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </div>
+          
+        </li>
+
+        <li class="advantages__feature">
+          <div class="advantages__group">
+            <svg class="advantages__icon">
+              <use href="./images/icon/defs.svg#g-diagram"></use>
+            </svg>
+          </div>
+          <div class="advantages__pos">
+            <h3 class="advantages__title-grup">Планирование</h3>
+          <p class="advantages__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          </div>
+          
+        </li>
+      <!-- Современные технологии -->
+        <li class="advantages__feature">
+          <div class="advantages__group">
+            <svg class="advantages__icon">
+              <use href="./images/icon/defs.svg#g-astronaut"></use>
+            </svg>
+          </div>
+          <div class="advantages__pos">
+            <h3 class="advantages__title-grup">Современные технологии</h3>
+          <p class="advantages__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </div>
+          
+        </li>
+      </ul>
+    </section>
     <!-- main -->
-    <main class="main-contakts">
+    <!-- <main class="main-contakts">
         <h1 class="h1c">Контакты</h1>
         <h2 class="invisible">hh</h2>
         <h3 class="invisible">для незрячих</h3>
@@ -74,9 +142,9 @@
         <h5 class="invisible">для незрячих</h5>
         <h6 class="h6a">для незрячих</h6>
          <p class="p">
-наш адрес: <span class="a-main">г. Киев, пр-т Леси Украинки, 26</span>  <br>
-наша ел.почта:<a href="mailto:info@devstudio.com" class="a-main"> info@devstudio.com</a> <br>
-наш телефон: <a href="tel:+380961111111" class="a-main">+38 096 111 11 11</a>
+            наш адрес: <span class="a-main">г. Киев, пр-т Леси Украинки, 26</span>  <br>
+            наша ел.почта:<a href="mailto:info@devstudio.com" class="a-main"> info@devstudio.com</a> <br>
+            наш телефон: <a href="tel:+380961111111" class="a-main">+38 096 111 11 11</a>
          </p>
          <div><h5>supper</h5>
             <input class="ex" type="text"> <button class="button-" type="button" > button </button>
@@ -84,14 +152,14 @@
         <button class="button--" type="button" > button </button>
          
         
-    </main>
+    </main> -->
 <!-- footer -->
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="container footer__section">
       <div>
         <a class="logo" href="./index.html">
           <span>Web</span><span class="logo--down">Studio</span></a>
-<!-- address -->
+
         <address class="footer__address-postion">
           <ul class="address">
             <li>
@@ -162,7 +230,7 @@
         
       </div>
     </div>
-  </footer>
+  </footer> -->
     </body>
     
 </html>
