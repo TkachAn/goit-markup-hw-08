@@ -75,7 +75,7 @@
         }
     }
     &__text {
-        display: inline-block;
+        //display: inline-block;
         font-size: 14px;//fontSize();
         font-weight: 400;
         margin-bottom: 30px;
@@ -84,9 +84,11 @@
             width: 270px;
         }
         @media (min-width: 480px) {
+            //margin-bottom: 0;
         }
 
         @media (min-width: 768px) {
+            margin-bottom: 0;
         }
     }
 }

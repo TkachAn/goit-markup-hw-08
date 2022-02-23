@@ -1,22 +1,36 @@
+
 .craft {
     //background-color: ;
     
     &__title {
+        @media screen and (max-width:1170px) {
+            display: none;
+        }
         Font-size: 36px;
         Line-height: 1.17;
         color: $colorTxt-secondary;
 
         text-align: center;
+
     }
     &__gallery{
+        @media screen and (max-width:1170px) {
+            display: none;
+        }
         display: flex;
         justify-content: space-between;
         padding-top: 50px;
     }
     &__item {
+        @media screen and (max-width:1170px) {
+            display: none;
+        }
         position: relative;
     }
     &__bg-title {
+        @media screen and (max-width: 1170px) {
+            display: none;
+        }
         position: absolute;
         padding-top: 27px;
         text-align: center;
