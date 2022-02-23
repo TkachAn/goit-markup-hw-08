@@ -581,8 +581,6 @@ a {
 }
 
 .team-card {
-  width: 270px;
-  min-height: 428px;
   font-size: 16px;
   line-height: 1.18;
   background-color: var(--white-txt-color, #ffffff);
