@@ -658,10 +658,24 @@ a {
   background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_480x400.webp);
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img_hero_960x800.webp);
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_960x800.webp);
+  }
+}
+
 @media screen and (min-width: 480px) {
   .hero {
     background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img_hero_768x400.webp);
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_768x400.webp);
+  }
+}
+
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img_hero_1536x800.webp);
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_1536x800.webp);
   }
 }
 
@@ -671,6 +685,13 @@ a {
     padding-bottom: 200px;
     background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img_hero_1600x600.webp);
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_1600x600.webp);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img_hero_3200x1200.webp);
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img_hero_3200x1200.webp);
   }
 }
 

@@ -5,10 +5,19 @@
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                      url(../images/1/Img_hero_960x800.webp);
+    }
+
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
                       url(../images/1/Img_hero_480x400.webp);
 
     @media screen and (min-width: 480px) {
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                        url(../images/1/Img_hero_1536x800.webp);
+      }
       background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
                         url(../images/1/Img_hero_768x400.webp);
     }
@@ -16,6 +25,10 @@
     @media screen and (min-width: 768px) {
       padding-top: 200px;
       padding-bottom: 200px;
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                        url(../images/1/Img_hero_3200x1200.webp);
+    }
       background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
                         url(../images/1/Img_hero_1600x600.webp);
     }
