@@ -609,12 +609,7 @@ a {
 }
 
 .team-card__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 .address {
@@ -656,19 +651,30 @@ a {
 
 .hero {
   background: #c4c4c4;
-  background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img.jpg);
-  background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(/images/1/img_hero_480x400_2x.jpg);
+  background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(/images/1/img_hero_480x400_2x.jpg);
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(/images/1/img_hero_768x400_2x.jpg);
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(/images/1/img_hero_768x400_2x.jpg);
+  }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(/images/1/Img_hero_1600x600_2x.jpg);
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(/images/1/Img_hero_1600x600_2x.jpg);
   }
 }
 

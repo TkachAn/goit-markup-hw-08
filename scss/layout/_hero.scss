@@ -1,16 +1,25 @@
 .hero {
     background: $colorBg-img;
-    background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                      url(../images/1/Img.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                      url(/images/1/img_hero_480x400_2x.jpg);
+
+    @media screen and (min-width: 480px) {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                      url(/images/1/img_hero_768x400_2x.jpg);
+    }
 
     @media screen and (min-width: 768px) {
       padding-top: 200px;
       padding-bottom: 200px;
+      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+                      url(/images/1/Img_hero_1600x600_2x.jpg);
     }
 
     &__title{
