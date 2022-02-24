@@ -2,35 +2,33 @@
     background: $colorBg-img;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    background-size:auto;
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                      url(../images/1/Img_hero_960x800.webp);
-    }
-
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                      url(../images/1/Img_hero_480x400.webp);
+                      url(../images/1/hero_mob@1.jpg);
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
+          url(../images/1/hero_mob@2x.jpg); 
+        }                  
 
     @media screen and (min-width: 480px) {
-      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/Img_hero_1536x800.webp);
-      }
       background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/Img_hero_768x400.webp);
+                        url(../images/1/hero_tab@1.jpg);
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+          background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/hero_tab@2x.jpg);
+        }
     }
 
     @media screen and (min-width: 768px) {
       padding-top: 200px;
       padding-bottom: 200px;
-      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/Img_hero_3200x1200.webp);
-    }
       background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/Img_hero_1600x600.webp);
+                        url(../images/1/Img@1x.jpg);
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx) {
+          background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img@2x.jpg);
+        }
     }
 
     &__title{
@@ -42,7 +40,7 @@
       text-transform: uppercase;
       margin-bottom: 30px;
       @media screen and (min-width: 768px) {
-        font-size: 44px;
+        font-size: test1(99);//44px;
       }
     }
     &__btn{

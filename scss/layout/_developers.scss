@@ -12,12 +12,7 @@
     }
 
     &__list{
-        // @media screen and (min-width: 480px) {
-        //     display: flex;
-        //     flex-basis: calc((100% / 2 - 15px));
-        //     // justify-content: space-between;
-        //     }
-            @media (min-width: 480px) {//and (max-width: 767px) {
+        @media (min-width: 480px) {//and (max-width: 767px) {
                 align-content:stretch;
                 display: flex;
                 flex-wrap: wrap;
@@ -32,6 +27,4 @@
     }
 
 }
-.team-card__position{
-    margin-bottom: 0;
-}
+

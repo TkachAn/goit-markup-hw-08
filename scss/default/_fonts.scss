@@ -13,7 +13,7 @@
 //  return: $fS;
     
 // }
-
+//$screen: @media (device-width)-100px; 
 @function fontSize($min-font-size: 14px, $max-font-size: 26px,$min-block-size: 300px, $breackPoint: 480px) {
     // $r_brP-mBl: $breackPoint-$min-block-size;
     // ($breackPoint - $min-block-size)
@@ -27,7 +27,17 @@
     // (100vw - $min-block-size)/($breackPoint - $min-block-size)/($max-font-size - $min-font-size)
     // $fS: $min-font-size + (floor($kh_));
 
+   /////// @media screen and (min-width: 1200px) and (orientation: landscape)
+
     // $fs: $min-font-size *1px;
     @return $min-font-size + (floor((100vw - $min-block-size)/($breackPoint - $min-block-size)/($max-font-size - $min-font-size)));
   }
 // floor($number)
+@function test($min-font-size: 14px, $max-font-size: 26px){
+
+  @return $max-font-size - $min-font-size;
+}
+@function test1($screen: $screen, $min-block-size: 30){
+
+  @return $screen - $min-block-size;
+}
