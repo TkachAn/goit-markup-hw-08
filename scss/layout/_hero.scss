@@ -1,3 +1,4 @@
+//@import './utils/mixins';
 .hero {
     background: $colorBg-img;
     background-position: 50% 50%;
@@ -6,29 +7,27 @@
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                      url(../images/1/hero_mob@1.jpg);
-        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi), (min-resolution: 2dppx) {
-          background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-          url(../images/1/hero_mob@2x.jpg); 
-        }                  
+    background-image: $bg-gradient, url(../images/1/hero_mob@1.jpg);
 
-    @media screen and (min-width: 480px) {
-      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/hero_tab@1.jpg);
-        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
-          background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/hero_tab@2x.jpg);
-        }
+      @include retin {
+        background-image: $bg-gradient, url(../images/1/hero_mob@2x.jpg); 
+      }
+
+      @include _480 {
+      background-image: $bg-gradient, url(../images/1/hero_tab@1.jpg);
+
+      @include retin {
+          background-image: $bg-gradient, url(../images/1/hero_tab@2x.jpg);
+      }
     }
 
-    @media screen and (min-width: 768px) {
+    @include _768 {
       padding-top: 200px;
       padding-bottom: 200px;
-      background-image: linear-gradient(to left, #2f303a66, #2f303a66), 
-                        url(../images/1/Img@1x.jpg);
-        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx) {
-          background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img@2x.jpg);
-        }
+      background-image: $bg-gradient, url(../images/1/Img@1x.jpg);
+      @include retin {
+        background-image: $bg-gradient, url(../images/1/Img@2x.jpg);
+      }
     }
 
     &__title{
@@ -39,10 +38,12 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
       margin-bottom: 30px;
-      @media screen and (min-width: 768px) {
-        font-size: test1(99);//44px;
+
+      @include _768 {
+        font-size: 44px;
       }
     }
+    
     &__btn{
       @extend %main;
     }

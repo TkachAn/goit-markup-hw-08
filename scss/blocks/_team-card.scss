@@ -19,21 +19,17 @@
         font-size: 16px;
         line-height: 0.9;
         margin-bottom: 0;
-  /* line-height: 1; */
-
     }
 
     &__name {
         display: block;
         font-weight: 700;
         color: $colorTxt-secondary;
-
     }
 
     &__soc_pos{
         display: flex;
         justify-content: center;
-        
     }
 
 }

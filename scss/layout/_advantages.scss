@@ -1,5 +1,6 @@
 .advantages {
-    margin-top: 60px; 
+    margin-top: 60px;
+    
     $w-ico:420px;
     $gap: 15px;
     $col: 2;
@@ -8,6 +9,8 @@
     }
 
     &__list {
+        padding-left: 15px; 
+        padding-right: 15px;
         @media (min-width: 600px) and (max-width: 767px) {
             display: flex;
             flex-wrap: wrap;
