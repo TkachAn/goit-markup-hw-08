@@ -35,13 +35,11 @@
         }
 
         @media (min-width: 768px) {
-
             flex-basis: calc(100% / 3 - 30px);
         }
+
         @media (min-width: 1200px) {
-           // margin: 0;
-            max-width: 170px;
-            //justify-content: space-between;
+           max-width: 170px;
         }
     }
         
@@ -55,13 +53,8 @@
     &__icon {
         width: 106px;
         height: 40px;
-        //color: currentColor;
         fill: inherit;
     }
-    
-    // &__icon:hover {
-    //     fill: $colorTxt-accent;
-    // }
     
     &__link {
         fill: inherit;
