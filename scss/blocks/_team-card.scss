@@ -1,9 +1,4 @@
 .team-card {
-    //width: 100%;
-    //min-height: auto;
-
-    // width: 270px;
-    // min-height: 428px;
     font-size: 16px;
     line-height: 1.18;
     background-color: var(--white-txt-color, $colorMaxLight);
@@ -11,7 +6,18 @@
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     padding-bottom: 30px;
+    
+    &__img{
+        //max-width: 450px;
+        @media (min-width: 480px)  {
+            align-content:stretch;
+            flex-basis: calc((100% / 2 - 15px));
+        }
 
+        @media (min-width: 1200px) {
+            flex-basis: calc(100% / 4 - 15px);
+        }
+    }
     
     &__text{
         display: inline-block;
