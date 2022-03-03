@@ -48,7 +48,10 @@
 }
 
 %mod-size-sub {
+    width:100%;
+    @media (min-width: 1200px){
     width: 358px;
+    }
     height: 50px;
     padding-left: 65px;
 }

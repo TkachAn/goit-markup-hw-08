@@ -8,9 +8,12 @@
     }
 
     &__position-el{
-        display: flex;
         justify-content: space-between;
         position: relative;
+        @media (min-width: 1200px){
+        display: flex;
+    }
+        
     }
 
     &__position-el label[for="email-label"] {

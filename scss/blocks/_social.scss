@@ -11,7 +11,7 @@
 }
 
 .socbox{
-
+  
   &__title{
     text-transform: uppercase;
     color: var(--white-txt-color);
@@ -21,6 +21,10 @@
 }
   &__flex {
     @extend %socbox-size;
+    @media (max-width: 1200px){
+    margin-left: auto;
+    margin-right: auto;
+    
   }
   &__icon{
     @extend %soc-icon;
@@ -35,6 +39,7 @@
 %socbox-size{
   display: flex;
   justify-content: space-between;
+
   width: 208px;
   height: 44px;
 
