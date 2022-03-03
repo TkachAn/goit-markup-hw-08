@@ -1,4 +1,8 @@
 .subscription{
+    
+    @media (min-width: 1200px){
+        margin-top: 0;
+    }
     &__title{
         text-transform: uppercase;
         color: var(--white-txt-color);

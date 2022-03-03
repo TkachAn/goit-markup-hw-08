@@ -1,14 +1,17 @@
-//@import './utils/mixins';
 .hero {
     background: $colorBg-img;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size: auto;//contain cover  auto 
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: $bg-gradient, url(../images/1/hero_mob@1.jpg);
+    // @include _1200 {
+    //   background-size: auto 600px;
+    // }
 
+    background-image: $bg-gradient, url(../images/1/hero_mob@1.jpg);
+    
       @include retin {
         background-image: $bg-gradient, url(../images/1/hero_mob@2x.jpg); 
       }
