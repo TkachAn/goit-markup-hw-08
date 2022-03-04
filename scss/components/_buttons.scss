@@ -14,16 +14,19 @@
 %btn-size-add {
   padding: 6px 22px;
 }
+
 %btn-color-1 {
   color: $colorMaxLight;
   background-color: $colorBtnBg-activ;
 }
+
 %btn-color-2 {
   color: $colorTxt-secondary;
   background-color: #f5f4fa;
   border: 1px solid var(--secondary-border-color, #eeeeee);
   box-shadow: none;
 }
+
 %btn-text-1 {
   font-family : Roboto;
   font-size: 16px;
@@ -32,6 +35,7 @@
   line-height: 1.625;
   letter-spacing: 0.06em;
 }
+
 %btn-text-2 {
   font-family : Roboto;
   font-size: 16px;
@@ -41,6 +45,7 @@
   line-height: 1.625;
   letter-spacing:0.03em;
 }
+
 %btn-icon {
   position: relative;
   display: inline-block;
@@ -50,9 +55,16 @@
   width: 24px;
   height: 24px;
 }
-%btn-use {
 
+%btn-use {
+  @extend %btn-base;
+  @extend %btn-size-fix;
+  &:hover {
+    background-color: $colorBtnBg-hover;
+    cursor: pointer;
 }
+}
+
 %filter {
   @extend %btn-base;
   @extend %btn-size-add;
@@ -80,6 +92,7 @@
     cursor: pointer;
 }
 }
+// @extend btn-icon;
 %btn-icon{
   @extend %btn-base;
   @extend %btn-size-fix;
