@@ -2,7 +2,7 @@
     background: $colorBg-img;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: contain;//contain cover  auto 
+    background-size: cover;//contain cover  auto 
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
@@ -25,14 +25,16 @@
     }
 
     @include _768 {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      
       background-image: $bg-gradient, url(../images/1/Img@1x.jpg);
       @include retin {
         background-image: $bg-gradient, url(../images/1/Img@2x.jpg);
       }
     }
-
+    @include _1200 {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
     &__title{
       color: $colorTxt-Light;
       font-weight: 900;

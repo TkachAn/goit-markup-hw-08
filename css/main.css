@@ -731,7 +731,6 @@ a {
   .header__container::before {
     content: '.';
     color: #fff;
-    stroke: none;
     width: 32px;
     top: 22px;
     left: calc(90%);
@@ -767,7 +766,7 @@ a {
   background: #c4c4c4;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
@@ -798,8 +797,6 @@ a {
 
 @media (min-width: 768px) {
   .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img@1x.jpg);
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img@1x.jpg);
   }
@@ -809,6 +806,13 @@ a {
   .hero {
     background-image: -webkit-gradient(linear, right top, left top, from(#2f303a66), to(#2f303a66)), url(../images/1/Img@2x.jpg);
     background-image: linear-gradient(to left, #2f303a66, #2f303a66), url(../images/1/Img@2x.jpg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
