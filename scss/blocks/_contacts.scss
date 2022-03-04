@@ -1,7 +1,15 @@
 
 .contacts {
+  @media (min-width: 768px) and (max-width:1199px) {
     display: flex;
-    width: 333px;
+    justify-content: space-between;
+    // width: 100%;
+  }
+    display: flex;
+    @media (min-width: 1200px){
+      width: 333px;
+    }
+    
     justify-content: space-between;
     
 

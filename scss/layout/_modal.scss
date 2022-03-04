@@ -5,9 +5,13 @@
   text-align: center;
   top: 50%;
   left: 50%;
+  width: 90%;
+  
+  @media (min-width: 568px){
+    width: 528px;
+  }
+  
   transform: translate(-50%, -50%) scale(100%);
-  width: 528px;
-  min-height: 581px;
   padding: 40px;
   background: $colorMaxLight;
   box-shadow: $shadow-drop;
@@ -18,11 +22,19 @@
   &__title{
     display: block;
     margin-bottom: 30px;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 18px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    @media (min-width: 485px){
+      font-size: 16px;
+    line-height: 21px;
+    }
+    @media (min-width: 568px){
+      font-size: 20px;
+    line-height: 23px;
+    }
     transition: after 260ms $cubic;
   }
   &__us {
@@ -250,7 +262,10 @@
 .cont-textarea > label {
   position: absolute;
   transform: translate(0%, 0%) scale(150%);
-  font-size: 14px;
+  font-size: 12px;
+  // @media (min-width:1200px){
+  //   font-size: 14px;
+  // }
   line-height: 1.17;
   letter-spacing: 0.01em;
   color:  #c4c4c4;

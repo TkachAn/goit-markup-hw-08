@@ -1,6 +1,15 @@
 .nav{
     display: flex;
-    width: 294px;
+    @media (min-width: 768px) and (max-width:1199px) {
+        display: flex;
+        justify-content: space-between;
+        width: 294px;
+      }
+      
+      @media (min-width: 1200px){
+        width: 294px;
+      }
+      
     justify-content: space-between;
     font-size: 14px;
     line-height: 1.15;
@@ -28,7 +37,7 @@
         position: absolute;
         color: transparent;
         content: "0";
-        display: block;
+        display: block; 
       }  
 }
 

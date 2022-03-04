@@ -3,8 +3,10 @@
     background-color: $colorBg-Dark;
     &__al{
       text-align: center;
+      margin-bottom: 60px;
       @media (min-width: 1200px){
         text-align: start;
+        margin-bottom: 0;
         //margin-left: 70px;
       }
     }
@@ -25,14 +27,13 @@
     &__socbox-postion {
       text-align: center;
       padding-top: 15px;
-      @media (min-width: 768px){
+      margin-bottom: 60px;
+      @media (min-width: 1200px){
         text-align: start;
         margin-left: 70px;
+        margin-bottom: 0;
       }
-      @media (min-width: 1200px){
-      text-align: start;
-      margin-left: 70px;
-    }
+
     }
     
     &__address-postion {
@@ -40,7 +41,6 @@
     }
 
     &__subscription-postion {
-      margin-top: 60px;
       padding-top: 15px;
       text-align: center;
       margin-bottom: 90px;

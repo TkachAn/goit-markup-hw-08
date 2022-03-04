@@ -91,7 +91,7 @@
       
           </ul>
         </nav>
-<!-- contacsts -->
+<!-- contacstsright="32px" -->
         <ul class="header__contacts contacts">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -111,7 +111,21 @@
             </a>
           </li>
         </ul>
-        <!-- <img class="menu" src="./images/1/menu_24px.png" alt="menu"> -->
+        <!-- is-open -->
+        <button class = "header__menu" 
+        type="button" 
+        aria-expanded = "false"
+        aria-controls="menu_container" 
+        menu-open> 
+          <svg width = "24" height = "24" aria-label = "mob menu">
+            <use class ="header__menu_close" href ="./images/1/menu.svg#close_24pxb" ></use>
+            <use class="header__menu_open" href="./images/1/menu.svg#menu_24pxb" ></use>
+          </svg> 
+      </button>
+      <!-- is-open -->
+      <div class="menu_container" id="menu_container" menu-cont>
+            bkjgkjhkjhj
+      </div>
       </div>
     </header>
     <section class="hero section">
@@ -507,6 +521,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
     <!-- main -->
     <!-- <main class="main-contakts">
         <h1 class="h1c">Контакты</h1>
