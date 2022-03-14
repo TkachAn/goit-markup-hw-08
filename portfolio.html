@@ -18,19 +18,19 @@
   <!-- header -->
   <header class="header">
     <div class="container header__container">
-<!-- logo -->        
+  <!-- logo -->        
       <a class="header__logo logo" href="./index.html">
         <span>Web</span><span class="logo--up">Studio</span>
       </a>
-<!-- navigation -->
+  <!-- navigation -->
       <nav class="header__nav">
         <ul class="nav">
     
-          <li>
+          <li class="nav-after ">
             <a class="nav__link" href="./index.html">Студия</a>
           </li>
     
-          <li class="nav-after ">
+          <li>
             <a class="nav__link" href="./portfolio.html">Портфолио</a>
           </li>
     
@@ -40,7 +40,7 @@
     
         </ul>
       </nav>
-<!-- contacsts -->
+  <!-- contacstsright="32px" -->
       <ul class="header__contacts contacts">
         <li class="contacts__item">
           <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -60,6 +60,47 @@
           </a>
         </li>
       </ul>
+      <!-- is-open -->
+      <button class = "header__menu" 
+      type="button" 
+      aria-expanded = "false"
+      aria-controls="menu_container" 
+      menu-open> 
+        <svg width = "24" height = "24" aria-label = "mob menu">
+          <use class ="header__menu_close" href ="./images/1/menu.svg#close_24pxb" ></use>
+          <use class="header__menu_open" href="./images/1/menu.svg#menu_24pxb" ></use>
+        </svg> 
+    </button>
+    <!-- is-open -->
+      <div class="menu_container m" id="menu_container" menu-cont>
+        <div class="m-nav">
+          <a class="m-nav__link" href="./index.html">Студия</a>
+          <a class="m-nav__link" href="./portfolio.html">Портфолио</a>
+          <a class="m-nav__link" href="./contakts.html">Контакты</a>
+        </div>
+        <div class="m-contacts ">
+          <a class="m-contacts__link" href="tel:+380961111111"><span class="m-tel"> +38 096 111 11 11</span></a>
+          <a class="m-contacts__link" href="mailto:info@devstudio.com"><span class="m-mail">info@devstudio.com</span></a>
+        </div>
+        <ul class="m-socbox__flex">
+          <li>
+            <a href="https://about.instagram.com/">instagram</a>
+          </li>
+        
+          <li>
+            <a href="https://twitter.com/">twitter</a>
+        
+          </li>
+        
+          <li>
+            <a href="https://www.facebook.com/">facebook</a>
+          </li>
+        
+          <li>
+            <a href="https://www.linkedin.com/">linkedin</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
   <!-- main -->
@@ -88,7 +129,7 @@
           <ul class="catalog container">
             <li class="catalog-card">
               <div class="box">
-                <img src="./images/2/Texno.jpg" alt="Технокряк" width="370" height="294">
+                <img   srcset="./images/2/desk_portfolio/img1.jpg 1x, ./images/2/desk_portfolio/img1@2x.jpg 2x" src="./images/2/Texno.jpg" alt="Технокряк" >
                 <div class="overlay">
                   
                     <p class="overlay-p"> 
@@ -123,7 +164,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img src="./images/2/NewOrlean.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                <img   srcset="./images/2/desk_portfolio/img2.jpg 1x, ./images/2/desk_portfolio/img2@2x.jpg 2x" src="./images/2/NewOrlean.jpg" alt="Постер New Orlean vs Golden Star">
                   <div class="overlay">
                     <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -139,7 +180,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img src="./images/2/SeaFood.jpg" alt="Ресторан Seafood" width="370" height="294"><div class="overlay">
+                <img   srcset="./images/2/desk_portfolio/img3.jpg 1x, ./images/2/desk_portfolio/img3@2x.jpg 2x" src="./images/2/SeaFood.jpg" alt="Ресторан Seafood" ><div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
                     Компании используют эту платформу
@@ -154,7 +195,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/Prime.jpg" alt="Проект Prime">
+                <img   srcset="./images/2/desk_portfolio/img4.jpg 1x, ./images/2/desk_portfolio/img4@2x.jpg 2x" src="./images/2/Prime.jpg" alt="Проект Prime">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -170,7 +211,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/Boxes.jpg" alt="Проект Boxes">
+                <img   srcset="./images/2/desk_portfolio/img5.jpg 1x, ./images/2/desk_portfolio/img5@2x.jpg 2x" src="./images/2/Boxes.jpg" alt="Проект Boxes">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -186,7 +227,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/Inspiration.jpg" alt="Inspiration has no Borders">
+                <img   srcset="./images/2/desk_portfolio/img6.jpg 1x, ./images/2/desk_portfolio/img6@2x.jpg 2x" src="./images/2/Inspiration.jpg" alt="Inspiration has no Borders">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -202,7 +243,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/LimEd.jpg" alt="Издание Limited Edition">
+                <img   srcset="./images/2/desk_portfolio/img7.jpg 1x, ./images/2/desk_portfolio/img7@2x.jpg 2x" src="./images/2/LimEd.jpg" alt="Издание Limited Edition">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -218,7 +259,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/ProjLab.jpg" alt="Проект LAB">
+                <img   srcset="./images/2/desk_portfolio/img8.jpg 1x, ./images/2/desk_portfolio/img8@2x.jpg 2x" src="./images/2/ProjLab.jpg" alt="Проект LAB">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -234,7 +275,7 @@
             </li>
             <li class="catalog-card">
               <div class="box">
-                <img width="370" height="294" src="./images/2/GrowBis.jpg" alt="Growing Business">
+                <img   srcset="./images/2/desk_portfolio/img9.jpg 1x, ./images/2/desk_portfolio/img9@2x.jpg 2x" src="./images/2/GrowBis.jpg" alt="Growing Business">
                 <div class="overlay">
                   <p class="overlay-p">Технокряк это современная площадка
                     распространения коронавируса.
@@ -255,21 +296,21 @@
   <!-- footer -->
   <footer class="footer">
     <div class="container footer__section">
-      <div>
+      <div class="footer__al">
         <a class="logo" href="./index.html">
           <span>Web</span><span class="logo--down">Studio</span></a>
-<!-- address -->
+  <!-- address -->
         <address class="footer__address-postion">
           <ul class="address">
             <li>
               <a class="address__map" href="https://goo.gl/maps/sbAjd5FBp9YJ9pFS9">
                 г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-
+  
             <li>
               <a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-
+  
             <li>
               <a class="address__link" href="tel:+380961111111">
                 +38 096 111 11 11</a>
@@ -279,52 +320,55 @@
       </div>
       <div class="footer__socbox-postion socbox">
         <h3 class="socbox__title">присоединяйтесь</h3>
-          <ul class="socbox__flex">
-            <li>
-              <a href="https://about.instagram.com/">
-                <svg class="socbox__icon instagram">
-                  <use href="./images/icon/defs.svg#s-instagram"></use>
-                </svg>
-              </a>
-            </li>
-          
-            <li>
-              <a href="https://twitter.com/">
-                <svg class="socbox__icon twitter">
-                  <use href="./images/icon/defs.svg#s-twitter"></use>
-                </svg>
-              </a>
-          
-            </li>
-          
-            <li>
-              <a href="https://www.facebook.com/">
-                <svg class="socbox__icon facebook">
-                  <use href="./images/icon/defs.svg#s-facebook"></use>
-                </svg>
-              </a>
-            </li>
-          
-            <li>
-              <a href="https://www.linkedin.com/">
-                <svg class="socbox__icon linkedin">
-                  <use href="./images/icon/defs.svg#s-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      <div class="footer__subscription-postion subscription">
+        <ul class="socbox__flex">
+          <li>
+            <a href="https://about.instagram.com/">
+              <svg class="socbox__icon instagram">
+                <use href="./images/icon/defs.svg#s-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://twitter.com/">
+              <svg class="socbox__icon twitter">
+                <use href="./images/icon/defs.svg#s-twitter"></use>
+              </svg>
+            </a>
+        
+          </li>
+        
+          <li>
+            <a href="https://www.facebook.com/">
+              <svg class="socbox__icon facebook">
+                <use href="./images/icon/defs.svg#s-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://www.linkedin.com/">
+              <svg class="socbox__icon linkedin">
+                <use href="./images/icon/defs.svg#s-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__subscription-postion subscription ">
         <h3 class="subscription__title">Подпишитесь на рассылку</h3>
-        <div class="subscription__position-el">
+        <div class="subscription__position-el subscription">
           <label for="email-label">E-mail:</label>
-          <input class="subscription__email-input--sub type="email" name="email" placeholder="info@devstudio.com" >
+          <input class="subscription__email-input--sub type="email" name="email" 
+          placeholder="info@devstudio.com" >
+          <!-- button__main button -->
           <button class="subscription__button button__main button" type="submit" >Подписаться
             <svg class="botton__icon">
               <use href="./images/icon/m-defs.svg#icon-send"></use>
             </svg>
           </button>
         </div>
+        
       </div>
     </div>
   </footer>

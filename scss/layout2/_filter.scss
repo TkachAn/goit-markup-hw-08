@@ -5,8 +5,10 @@
 
 .filter {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
+    
     &__btn{
       
       @extend %filter;
@@ -15,6 +17,11 @@
   
   .filter > li + li {
     margin-left: 8px;
+    @media (max-width: 768px){
+      //display: block;
+      margin-bottom: 15px;
+    }
+    
   }
   
   .btnFilter {
@@ -25,7 +32,7 @@
     background-color: var(--bgBtnFilter, #f5f4fa);
     border-radius: 4px;
     padding: 6px 22px;
-  
+    
     color: var(--secondary-txt-color, #212121);
   
     border: 1px solid var(--secondary-border-color, #eeeeee);
