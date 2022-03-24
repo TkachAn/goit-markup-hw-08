@@ -7,8 +7,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
-    
+    margin-bottom: -15px;
+
+    @media (min-width: 768px){
+      //display: block;
+      margin-bottom: 0;
+    }
+    @media (min-width: 1200px){
+      //display: block;
+      margin-bottom: 50px;
+    }
     &__btn{
       
       @extend %filter;

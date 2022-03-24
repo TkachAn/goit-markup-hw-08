@@ -6,31 +6,59 @@
   /*********************************/
   /*********каталог*****************/
   /*********************************/
+  
+  .cat_img{
+    @media (min-width: 480px){
+    width: 450px;
+    }
+  }
+
   .catalog {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    margin-top: calc(-1 * $gap);
-    margin-left: calc(-1 * $gap);
+    justify-content: space-between;
     padding: 0;
-  &-card {
-      border: 1px solid $colorBorder;
-      margin-top: $gap;
-      margin-left: $gap;
-      flex-basis: calc(100% / $col - $gap);
+    // margin-top: 15px;
+    // @media (min-width: 768px){
+    //   //display: block;
+    //   margin-top: 30px;
+    // }
+    @media (min-width: 1200px){
+      //display: block;
+      margin-top: 50px;
     }
+
+  &-card {
+    @media (min-width: 480px){
+    width: 450px;
+    }
+    @media (min-width: 768px){
+      width: 354px;
+    }
+    @media (min-width: 1200px){
+      width: 370px;
+    }
+      border: 1px solid $colorBorder;
+      
+       margin-top: 30px;
+      // margin-left: $gap;
+      //flex-basis: 100% / $col - $gap;
+      //width: 354px;
+    }
+
   &-card:hover .overlay,
   &-card:hover .overlay-p {
-    transform: translatex(0);
-    color: $colorTxt-Light;
-  }
-  }
+      transform: translatex(0);
+      color: $colorTxt-Light;
+      }
   
+    }
   
   
   .box {
     position: relative;
     overflow: hidden;
+    //width: 500px;
   }
   
   
@@ -50,7 +78,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     color: #2196f300;
     font-weight: 400;
@@ -69,6 +97,7 @@
   
   .catalog-card p {
     font-size: 16px;
+    
     line-height: 1.9;
     padding: 20px 24px;
     margin: 0;
@@ -78,10 +107,16 @@
     color: var(--secondary-txt-color, $colorTxt-secondary);
     font-weight: 700;
     font-size: 18px;
+    @media (min-width: 768px){
+      font-size: 17px;
+    }
+    @media (min-width: 1200px){
+      font-size: 18px;
+    }
     line-height: 2;
     letter-spacing: 0.06em;
   }
   
-  /*********************************/
-  /******конец страницы*************/
-  /*********************************/
+  //*********************************/
+  //******конец страницы*************/
+  //********************************
