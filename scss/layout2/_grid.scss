@@ -7,40 +7,43 @@
   /*********каталог*****************/
   /*********************************/
   
-  .cat_img{
-    @media (min-width: 480px){
-    width: 450px;
-    }
-  }
+  // .cat_img{
+  //   @media (min-width: 480px){
+  //   width: 450px;
+  //   }
+  // }
 
   .catalog {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
-    // margin-top: 15px;
-    // @media (min-width: 768px){
-    //   //display: block;
-    //   margin-top: 30px;
-    // }
+    margin-top: -30px;
+    @media (min-width: 768px){
+      //display: block;
+      //margin-top: 0px;
+    }
     @media (min-width: 1200px){
       //display: block;
-      //margin-top: 50px;
+      //margin-top: 20px;
     }
 
   &-card {
+    margin-top: 30px;
     @media (min-width: 480px){
     width: 450px;
+    //margin-top: 15px;
     }
     @media (min-width: 768px){
       width: 354px;
+      //margin-top: 0px;
     }
     @media (min-width: 1200px){
       width: 370px;
     }
       border: 1px solid $colorBorder;
       
-       margin-top: 0px;
+       
       // margin-left: $gap;
       //flex-basis: 100% / $col - $gap;
       //width: 354px;
@@ -79,12 +82,12 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    color: #2196f300;
+    height: 90%;
+    //color: #2196f300;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
-    padding: 10px;
+    padding: 20px 24px;
     margin: 0;
     transform: translatey(100%);
     transition: transform 360ms linear, color 400ms $cubic;
@@ -95,7 +98,7 @@
     box-shadow: $shadow-box;
   }
   
-  .catalog-card p {
+  .card-p {
     font-size: 16px;
     
     line-height: 1.9;

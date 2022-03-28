@@ -6,14 +6,14 @@
         font-size: 28px;
 
         line-height: 1.18;
-
+        padding-bottom: 30px;
         @media (min-width: 1200px) {
-
+            padding-bottom: 50px;
             font-size: 36px;
         }
         
         color: $colorTxt-secondary;
-        padding-bottom: 50px;
+        //padding-bottom: 50px;
     }
 
     &__items{
