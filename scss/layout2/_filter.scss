@@ -7,16 +7,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: -15px;
-
+    margin-bottom: 25px;
+//margin-top: 60px;
     @media (min-width: 768px){
       //display: block;
-      margin-bottom: 0;
+      margin-bottom: 40px;
     }
-    @media (min-width: 1200px){
-      //display: block;
-      margin-bottom: 50px;
-    }
+    // @media (min-width: 1200px){
+    //   //display: block;
+    //   margin-bottom: 0px;
+    // }
     &__btn{
       
       @extend %filter;

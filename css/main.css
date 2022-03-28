@@ -1670,18 +1670,12 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: -15px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
   .filter {
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .filter {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 
@@ -1743,15 +1737,9 @@ a {
   padding: 0;
 }
 
-@media (min-width: 1200px) {
-  .catalog {
-    margin-top: 50px;
-  }
-}
-
 .catalog-card {
   border: 1px solid #eee;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 @media (min-width: 480px) {
