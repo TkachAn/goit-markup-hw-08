@@ -1,13 +1,14 @@
 .address {
     font-style: normal;
-    
+    font-size: 14px;
+    line-height: 1.71;
     &__map{
         color:$colorMaxLight;
     }
     &__link{
-        font-size: 14px;
-  line-height: 1.71;
-  color: var(--footer-link-color, rgba(255, 255, 255, 0.6));
+        display: block;
+        margin-top: 8px;
+        color: var(--footer-link-color, rgba(255, 255, 255, 0.6));
     }
 
 }

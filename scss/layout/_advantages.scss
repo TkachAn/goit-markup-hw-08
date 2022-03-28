@@ -55,6 +55,11 @@
     }
 
     &__title-grup {
+        text-align: center;
+        @media (min-width: 768px)  {
+            
+            text-align:start;
+        }
         color: $colorTxt-secondary;
         font-size: 14px; //fontSize() ;
         font-style:normal;

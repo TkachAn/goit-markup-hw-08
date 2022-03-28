@@ -2,10 +2,16 @@
     text-align: center;
     
     &__title{
-        font-style: 700;
-        font-size: 36px;
-        line-height: 42px;
-        letter-spacing: 3%;
+        font-weight: 700;
+        font-size: 28px;
+
+        line-height: 1.18;
+
+        @media (min-width: 1200px) {
+
+            font-size: 36px;
+        }
+        
         color: $colorTxt-secondary;
         padding-bottom: 50px;
     }
@@ -14,6 +20,18 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+                margin-bottom: -30px;
+            @media (min-width: 320px) {
+                
+            }
+    
+            @media (min-width: 768px) {
+                
+            }
+    
+            @media (min-width: 1200px) {
+                margin-bottom: 0px;
+            }
     }
 
     &__item{
@@ -26,6 +44,7 @@
         border-radius: 4px;
         fill: $colorTxt-socialLink;
         margin-bottom: 30px;
+
         transition: fill 500ms $cubic;
 
         @media (min-width: 320px) {
@@ -40,6 +59,7 @@
 
         @media (min-width: 1200px) {
            max-width: 170px;
+           margin-bottom: 0px;
         }
     }
         
