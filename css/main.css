@@ -849,6 +849,7 @@ a {
   padding: 48px 40px;
   -ms-flex-line-pack: justify;
       align-content: space-between;
+  z-index: 10;
 }
 
 .menu_container.is-open {
